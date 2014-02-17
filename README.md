@@ -18,11 +18,15 @@ Or install it yourself as:
 
     gem install tourist-rails
 
+### Dependencies
+
+Tourist.js depends on jQuery & Backbone. I add Backbone (1.1.1) and Underscore (1.6.0) automaticaly when tourist is requested. A better fix will be coming soon ; either let the user get the dependencies himself or git submodules to the dependencies, or better.
+
 ### Add Tourist.js to the asset pipeline like usual
 
 #### application.js
 
-    require backbone
+    require jquery
     require tourist
 
 #### application.css.scss (optional)
